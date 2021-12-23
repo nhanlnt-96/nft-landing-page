@@ -1,0 +1,21 @@
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.header-container .logo {
+  flex: 1;
+
+  .logocomp-container {
+    transform: scale(0.5);
+  }
+}
+
+.header-container .menu {
+  flex: 2;
+}
+
+.header-container .button {
+  flex: 1;
+}
