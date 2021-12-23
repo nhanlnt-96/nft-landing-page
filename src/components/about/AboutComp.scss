@@ -69,6 +69,14 @@
   padding: 0 10px;
   z-index: 1;
 
+  @include mobile {
+    padding: 0;
+  }
+
+  @include tablet {
+    padding: 0;
+  }
+
   .about-title {
     text-align: center;
     color: #ff0f7b;
