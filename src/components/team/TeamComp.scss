@@ -1,0 +1,60 @@
+@import "../../styles/variables";
+@import "../../styles/rwd";
+
+.team-comp {
+  background-color: rgb(0, 1, 35);
+  padding: 20px 0;
+
+  &-content {
+    margin-top: $space-primary;
+    width: 960px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+
+    @include mobile {
+      width: 100%;
+      grid-template-columns: 1fr;
+    }
+
+    @include tablet {
+      width: 100%;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+.team-comp-content .content-item {
+  .item-header {
+    .avatar {
+      background: url("../../assets/imgs/bgTeamAva.webp") no-repeat center;
+      background-size: cover;
+      width: 100px;
+      height: 100px;
+      padding: 10px;
+
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+
+  .item-content {
+    margin-top: 12px;
+    text-align: center;
+
+    h6, p {
+      margin-top: $space-primary;
+    }
+
+    h6 {
+      color: #ff0f7b;
+      font-family: TTOctoSquaresExp, sans-serif;
+    }
+
+    p{
+      color: #ffffff;
+    }
+  }
+}
