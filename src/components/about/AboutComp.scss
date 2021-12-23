@@ -34,29 +34,9 @@
   }
 }
 
-.left-side-container {
-  width: 250px;
-  height: 250px;
-  position: relative;
-
-  @include mobile {
-    width: 150px;
-    height: 150px;
-  }
-
-  @include tablet {
-    width: 200px;
-    height: 200px;
-  }
-}
-
-.about-comp-left-side .left-side-container {
-  background: url("../../assets/imgs/circleGif.gif") no-repeat center;
-  background-size: cover;
-
-  .diamond-img img {
-    width: 50%;
-  }
+.about-comp-left-side .left-side-container img {
+  width: 100%;
+  border-radius: 20px;
 }
 
 .about-comp-right-side {

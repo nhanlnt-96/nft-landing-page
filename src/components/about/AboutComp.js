@@ -1,6 +1,6 @@
 import React from 'react';
 import {Col, Container, Row} from "react-bootstrap";
-import Diamond from '../../assets/imgs/diamond.png';
+import AboutImg from '../../assets/imgs/aboutImg.jpeg';
 
 import './AboutComp.scss';
 
@@ -11,9 +11,7 @@ const AboutComp = () => {
       <Row className="about-comp-container">
         <Col lg={6} md={5} sm={12} className="about-comp-left-side d-flex justify-content-center align-items-center">
           <div className="left-side-container d-flex justify-content-center align-items-center">
-            <div className="diamond-img d-flex justify-content-center align-items-center">
-              <img src={Diamond} alt="diamond-img"/>
-            </div>
+            <img src={AboutImg} alt="about-img"/>
           </div>
         </Col>
         <Col lg={6} md={7} sm={12} className="about-comp-right-side d-flex justify-content-center align-items-center">
