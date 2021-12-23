@@ -26,7 +26,7 @@ const daoContentData = [
       '              pellentesque. Praesent commodo pulvinar libero, nec tincidunt diam lobortis vel.',
     icon: DaoIcon3
   }
-]
+];
 
 const DaoComp = () => {
   return (
