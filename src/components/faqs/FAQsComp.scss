@@ -1,0 +1,94 @@
+@import "../../styles/variables";
+@import "../../styles/rwd";
+
+.faqs-comp {
+  background-color: #000123;
+  position: relative;
+
+  &-container {
+    width: 960px;
+    padding: 20px 0;
+
+    @include mobile {
+      width: 100%;
+    }
+
+    @include tablet {
+      width: 100%;
+    }
+  }
+
+  .animate-corner {
+    &-top, &-bottom {
+      position: absolute;
+      background: url("../../assets/imgs/bgFaqs.gif") no-repeat center;
+      background-size: cover;
+      width: 200px;
+      height: 200px;
+    }
+
+    &-top {
+      left: 0;
+      top: 0;
+    }
+
+    &-bottom {
+      right: 0;
+      bottom: 0;
+    }
+  }
+}
+
+.faqs-comp-container .faqs-comp-content {
+  .content-header {
+    height: 150px;
+
+    .item {
+      width: 150px;
+      height: 100%;
+      background: url("../../assets/imgs/faqsGif.gif") no-repeat center;
+      background-size: cover;
+      z-index: 1;
+
+      h6 {
+        color: #ffffff;
+        font-family: TTOctoSquaresMedium, sans-serif;
+        font-size: 1.3rem;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .content-detail {
+    margin-top: $space-primary;
+    z-index: 1;
+
+    .accordion-flush .accordion-item .accordion-button {
+      font-family: TTOctoSquaresExp, sans-serif;
+
+      &:focus {
+        outline: none !important;
+        box-shadow: none !important;
+      }
+    }
+
+    .accordion-body {
+      font-family: TTOctoSquaresMedium, sans-serif;
+    }
+
+    .accordion-item {
+      color: #ffffff;
+      background-color: transparent;
+    }
+
+    .accordion-button {
+      background-color: transparent;
+      color: #ffffff;
+    }
+
+    .accordion-flush .accordion-collapse {
+      color: #000000;
+      background-color: #ffffff;
+    }
+  }
+}

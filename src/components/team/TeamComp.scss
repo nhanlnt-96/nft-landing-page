@@ -27,13 +27,10 @@
 .team-comp-content .content-item {
   .item-header {
     .avatar {
-      background: url("../../assets/imgs/bgTeamAva.webp") no-repeat center;
-      background-size: cover;
-      width: 100px;
-      height: 100px;
       padding: 10px;
 
       img {
+        border-radius: 10px;
         height: 100%;
         width: 100%;
       }
@@ -45,7 +42,7 @@
     text-align: center;
 
     h6, p {
-      margin-top: $space-primary;
+      margin-top: 12px;
     }
 
     h6 {

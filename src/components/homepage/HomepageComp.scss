@@ -1,35 +1,10 @@
 @import "../../styles/rwd";
 
 .homepage-comp {
-  background: url("../../assets/imgs/bgHome.webp") no-repeat center;
+  background: url("../../assets/imgs/bgHome.gif") no-repeat center;
   background-size: cover;
-  height: 500px;
-}
-
-.homepage-comp-content {
-  width: 960px;
-  height: 100%;
-  text-align: center;
-
-  @include mobile {
-    width: 100%;
-  }
-
-  @include tablet {
-    width: 100%;
-  }
-
-  .content-title {
-    font-size: 3.25rem;
-    font-family: TTOctoSquaresRegular, sans-serif;
-    color: #ffffff;
-
-    @include mobile {
-      font-size: 24px;
-    }
-
-    @include tablet {
-      font-size: 2rem;
-    }
-  }
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+  z-index: -1;
 }
