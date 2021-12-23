@@ -9,7 +9,7 @@ const headerMenu = ["Home", "About", "DAO", "Roadmap", "Team", "FAQs"];
 const HeaderComp = () => {
   return (
     <Navbar collapseOnSelect expand="lg" className="header-comp">
-      <Container>
+      <Container className="header-comp-container">
         <Navbar.Brand href="#home" className="header-comp-logo">
           <LogoComp/>
         </Navbar.Brand>
