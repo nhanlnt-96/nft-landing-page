@@ -17,6 +17,16 @@
 
   &-container {
     height: 100%;
+    width: 960px;
+    z-index: 1;
+
+    @include mobile {
+      width: 100%;
+    }
+
+    @include tablet {
+      width: 100%;
+    }
   }
 
   @include mobile {
@@ -56,17 +66,8 @@
 }
 
 .about-comp-right-side .right-side-container {
-  padding-left: 10px;
-  padding-right: 70px;
+  padding: 0 10px;
   z-index: 1;
-
-  @include mobile {
-    padding-right: 10px;
-  }
-
-  @include tablet {
-    padding-right: 20px;
-  }
 
   .about-title {
     text-align: center;

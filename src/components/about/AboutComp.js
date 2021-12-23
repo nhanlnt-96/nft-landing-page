@@ -6,7 +6,7 @@ import './AboutComp.scss';
 
 const AboutComp = () => {
   return (
-    <Container fluid className="about-comp">
+    <Container fluid className="about-comp d-flex justify-content-center align-items-center">
       <div className="blur-div"/>
       <Row className="about-comp-container">
         <Col lg={6} md={5} sm={12} className="about-comp-left-side d-flex justify-content-center align-items-center">
