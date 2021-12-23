@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/nhanlnt-96/nft-landing-page/static/css/main.6b44b7ea.chunk.css",
+    "main.js": "/nhanlnt-96/nft-landing-page/static/js/main.3b1891ff.chunk.js",
+    "main.js.map": "/nhanlnt-96/nft-landing-page/static/js/main.3b1891ff.chunk.js.map",
+    "runtime-main.js": "/nhanlnt-96/nft-landing-page/static/js/runtime-main.364ce057.js",
+    "runtime-main.js.map": "/nhanlnt-96/nft-landing-page/static/js/runtime-main.364ce057.js.map",
+    "static/css/2.d8cb5cde.chunk.css": "/nhanlnt-96/nft-landing-page/static/css/2.d8cb5cde.chunk.css",
+    "static/js/2.cd0baaed.chunk.js": "/nhanlnt-96/nft-landing-page/static/js/2.cd0baaed.chunk.js",
+    "static/js/2.cd0baaed.chunk.js.map": "/nhanlnt-96/nft-landing-page/static/js/2.cd0baaed.chunk.js.map",
+    "static/js/3.03082b1f.chunk.js": "/nhanlnt-96/nft-landing-page/static/js/3.03082b1f.chunk.js",
+    "static/js/3.03082b1f.chunk.js.map": "/nhanlnt-96/nft-landing-page/static/js/3.03082b1f.chunk.js.map",
+    "index.html": "/nhanlnt-96/nft-landing-page/index.html",
+    "static/css/2.d8cb5cde.chunk.css.map": "/nhanlnt-96/nft-landing-page/static/css/2.d8cb5cde.chunk.css.map",
+    "static/css/main.6b44b7ea.chunk.css.map": "/nhanlnt-96/nft-landing-page/static/css/main.6b44b7ea.chunk.css.map",
+    "static/js/2.cd0baaed.chunk.js.LICENSE.txt": "/nhanlnt-96/nft-landing-page/static/js/2.cd0baaed.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/nhanlnt-96/nft-landing-page/static/media/TTOctosquaresExp-Regular.b7c8bc87.woff",
+    "static/media/aboutImg.47e8c8c8.jpeg": "/nhanlnt-96/nft-landing-page/static/media/aboutImg.47e8c8c8.jpeg",
+    "static/media/AboutComp.scss": "/nhanlnt-96/nft-landing-page/static/media/bgAbout.5dd49f6b.jpeg",
+    "static/media/DaoComp.scss": "/nhanlnt-96/nft-landing-page/static/media/bgDao.1f867da1.webp",
+    "static/media/FAQsComp.scss": "/nhanlnt-96/nft-landing-page/static/media/faqsGif.6c332be9.gif",
+    "static/media/FooterComp.scss": "/nhanlnt-96/nft-landing-page/static/media/bgFooter.0644b579.jpg",
+    "static/media/HomepageComp.scss": "/nhanlnt-96/nft-landing-page/static/media/bgHome.05ca340f.gif",
+    "static/media/RoadmapComp.scss": "/nhanlnt-96/nft-landing-page/static/media/bgRoadmap.1e8bd842.webp",
+    "static/media/daoIcon1.d810ddd5.png": "/nhanlnt-96/nft-landing-page/static/media/daoIcon1.d810ddd5.png",
+    "static/media/daoIcon2.bc3ad24f.png": "/nhanlnt-96/nft-landing-page/static/media/daoIcon2.bc3ad24f.png",
+    "static/media/daoIcon3.2ef61f7b.png": "/nhanlnt-96/nft-landing-page/static/media/daoIcon3.2ef61f7b.png",
+    "static/media/reset.css": "/nhanlnt-96/nft-landing-page/static/media/font.617a0a92.woff",
+    "static/media/roadmapDetail.f234a402.jpg": "/nhanlnt-96/nft-landing-page/static/media/roadmapDetail.f234a402.jpg",
+    "static/media/teamAva.01fd5322.jpg": "/nhanlnt-96/nft-landing-page/static/media/teamAva.01fd5322.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.364ce057.js",
+    "static/css/2.d8cb5cde.chunk.css",
+    "static/js/2.cd0baaed.chunk.js",
+    "static/css/main.6b44b7ea.chunk.css",
+    "static/js/main.3b1891ff.chunk.js"
+  ]
+}
