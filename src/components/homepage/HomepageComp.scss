@@ -1,9 +1,26 @@
+@import "../../styles/rwd";
+
 .homepage-comp {
   background: url("../../assets/imgs/bgHome.webp") no-repeat center;
   background-size: cover;
+  height: 500px;
 }
 
-.homepage-comp-content .content-title {
-  font-family: TTOctoSquaresRegular, sans-serif;
-  color: #ffffff;
+.homepage-comp-content {
+  height: 100%;
+  text-align: center;
+
+  .content-title {
+    font-size: 3.25rem;
+    font-family: TTOctoSquaresRegular, sans-serif;
+    color: #ffffff;
+
+    @include mobile {
+      font-size: 24px;
+    }
+
+    @include tablet {
+      font-size: 2rem;
+    }
+  }
 }

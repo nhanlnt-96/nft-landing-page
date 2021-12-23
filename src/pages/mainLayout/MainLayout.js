@@ -5,7 +5,7 @@ import HomepageComp from "../../components/homepage/HomepageComp";
 const MainLayout = () => {
   return (
     <Container fluid>
-      <Row className="comp-height">
+      <Row>
         <HomepageComp/>
       </Row>
     </Container>

@@ -10,7 +10,7 @@ const HomepageComp = () => {
       <Row>
         <HeaderComp/>
       </Row>
-      <Row className="homepage-comp-content">
+      <Row className="homepage-comp-content d-flex justify-content-center align-items-center">
         <h1 className="content-title">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
           adipisci velit..."</h1>
       </Row>
