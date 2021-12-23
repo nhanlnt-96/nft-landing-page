@@ -18,19 +18,19 @@ const MainLayout = () => {
       <Row>
         <HomepageComp/>
       </Row>
-      <Row style={{marginTop: '100vh'}}>
+      <Row id="about" style={{marginTop: '100vh'}}>
         <AboutComp/>
       </Row>
-      <Row>
+      <Row id="dao">
         <DaoComp/>
       </Row>
-      <Row>
+      <Row id="roadmap">
         <RoadmapComp/>
       </Row>
-      <Row>
+      <Row id="faqs">
         <FAQsComp/>
       </Row>
-      <Row>
+      <Row id="team">
         <TeamComp/>
       </Row>
       <Row>
