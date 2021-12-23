@@ -1,5 +1,12 @@
 @import "../../styles/rwd";
 
+.header-comp {
+  .header-comp-container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
 .header-comp-logo {
   .logo-comp {
     transform: scale(.75);
