@@ -6,7 +6,7 @@ import './HomepageComp.scss';
 
 const HomepageComp = () => {
   return (
-    <Container fluid className="homepage-comp">
+    <Container fluid className="homepage-comp d-flex flex-row justify-content-center align-items-center">
       <Row>
         <HeaderComp/>
       </Row>
