@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {Container, Nav, Navbar} from "react-bootstrap";
 import LogoComp from "../logo/LogoComp";
 
@@ -7,8 +7,14 @@ import './HeaderComp.scss';
 const headerMenu = ["Home", "About", "DAO", "Roadmap", "Team", "FAQs"];
 
 const HeaderComp = () => {
+  const [offsetY, setOffsetY] = useState(0);
+  useEffect(() => {
+    window.onscroll = () => {
+      setOffsetY(window.pageYOffset);
+    };
+  }, []);
   return (
-    <Navbar collapseOnSelect expand="lg" fixed="top" className="header-comp">
+    <Navbar collapseOnSelect expand="lg" fixed="top" className={`header-comp ${offsetY !== 0 && 'header-active'}`}>
       <Container className="header-comp-container">
         <Navbar.Brand href="#home" className="header-comp-logo">
           <LogoComp/>

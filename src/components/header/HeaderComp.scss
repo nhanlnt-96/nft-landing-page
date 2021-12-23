@@ -157,3 +157,10 @@
     background-image: url("../../assets/icons/hamburger.png") !important;
   }
 }
+
+.header-active {
+  background-color: #000123;
+  box-shadow: rgba(250, 250, 250, 0.2) 0 2px 8px 0;
+  -webkit-transition: background-color 500ms linear;
+  transition: background-color 500ms linear;
+}
