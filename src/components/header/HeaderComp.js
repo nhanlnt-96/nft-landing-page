@@ -139,7 +139,7 @@ const HeaderComp = () => {
     };
   }, []);
   return (
-    <Navbar collapseOnSelect expand="lg" fixed="top" className={`header-comp ${offsetY !== 0 && 'header-active'}`}>
+    <Navbar collapseOnSelect expand="lg" className={`header-comp ${offsetY !== 0 && 'header-active'}`}>
       <Container className="header-comp-container">
         <Navbar.Brand href="/" className="header-comp-logo">
           <LogoComp/>
