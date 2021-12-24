@@ -13,12 +13,9 @@ const MainLayout = () => {
   return (
     <Container fluid>
       <Row>
-        <HeaderComp/>
-      </Row>
-      <Row>
         <HomepageComp/>
       </Row>
-      <Row id="about" style={{marginTop: '100vh'}}>
+      <Row id="about">
         <AboutComp/>
       </Row>
       <Row id="dao">

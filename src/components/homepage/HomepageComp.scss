@@ -4,7 +4,8 @@
   background: url("../../assets/imgs/bgHome.gif") no-repeat center;
   background-size: cover;
   height: 100vh;
-  position: fixed;
-  width: 100%;
-  z-index: -1;
+
+  &-content {
+    height: calc(100vh - 102.8px);
+  }
 }

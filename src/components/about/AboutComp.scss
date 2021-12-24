@@ -5,6 +5,7 @@
   background: url("../../assets/imgs/bgAbout.jpeg") no-repeat center;
   background-size: cover;
   padding: 20px 0;
+  min-height: 500px;
 
   .blur-div {
     width: 100%;
@@ -17,16 +18,7 @@
 
   &-container {
     height: 100%;
-    width: 960px;
     z-index: 1;
-
-    @include mobile {
-      width: 100%;
-    }
-
-    @include tablet {
-      width: 100%;
-    }
   }
 
   @include mobile {
@@ -59,15 +51,38 @@
 
   .about-title {
     text-align: center;
-    color: #ff0f7b;
-    font-size: 2rem;
-    font-family: TTOctoSquaresMedium, sans-serif;
+
+    &-item {
+      color: #ff0f7b;
+      font-size: 2rem;
+      font-family: TTOctoSquaresMedium, sans-serif;
+    }
   }
 
   .about-subtitle {
     margin-top: 24px;
-    text-align: justify;
-    color: #ffffff;
-    font-family: TTOctoSquaresRegular, sans-serif;
+    column-count: 2;
+
+    @include mobile {
+      column-count: unset;
+    }
+
+    @include tablet {
+      column-count: unset;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+    }
+
+    &-item {
+      text-indent: 25px;
+      text-align: justify;
+      color: #ffffff;
+      font-family: TTOctoSquaresRegular, sans-serif;
+
+      &:not(:first-child) {
+        margin-top: 10px;
+      }
+    }
   }
 }

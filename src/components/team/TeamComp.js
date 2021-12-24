@@ -15,21 +15,6 @@ const teamData = [
   {
     name: 'ZZZZZZZZ'
   },
-  {
-    name: 'XXXXXXXXXXX'
-  },
-  {
-    name: 'YYYYYYYYYYYYY'
-  },
-  {
-    name: 'ZZZZZZZZZZZZ'
-  },
-  {
-    name: 'YYYYYYYYYYYY'
-  },
-  {
-    name: 'ZZZZZZZZZZZZz'
-  }
 ]
 
 const TeamComp = () => {

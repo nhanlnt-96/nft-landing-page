@@ -9,19 +9,19 @@ import './DaoComp.scss';
 
 const daoContentData = [
   {
-    title: 'Lorem Ipsum',
+    title: 'Turtle Girl',
     content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquam eget neque pretium\n' +
       '              pellentesque. Praesent commodo pulvinar libero, nec tincidunt diam lobortis vel.',
     icon: DaoIcon1
   },
   {
-    title: 'Lorem Ipsum',
+    title: 'Turtle Gang',
     content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquam eget neque pretium\n' +
       '              pellentesque. Praesent commodo pulvinar libero, nec tincidunt diam lobortis vel.',
     icon: DaoIcon2
   },
   {
-    title: 'Lorem Ipsum',
+    title: 'Turtle Boy',
     content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquam eget neque pretium\n' +
       '              pellentesque. Praesent commodo pulvinar libero, nec tincidunt diam lobortis vel.',
     icon: DaoIcon3
@@ -33,7 +33,7 @@ const DaoComp = () => {
     <Container fluid className="dao-comp d-flex flex-column justify-content-center align-items-center">
       <div className="dao-comp-bg"/>
       <Row className="dao-comp-title">
-        <TitleComp title={'Community DAO'}
+        <TitleComp title={'Turtles Familly'}
                    subtitle={`"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."`}/>
       </Row>
       <div className="dao-comp-content">
