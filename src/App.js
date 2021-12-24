@@ -5,6 +5,8 @@ import MainLayout from "./pages/mainLayout/MainLayout";
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import ant design css
 import 'antd/dist/antd.css';
+// import slide show css
+import 'react-slideshow-image/dist/styles.css'
 // import local scss
 import './styles/App.scss';
 
