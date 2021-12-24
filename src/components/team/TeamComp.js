@@ -20,25 +20,30 @@ const teamData = [
 const TeamComp = () => {
   return (
     <Container fluid className="team-comp d-flex flex-column justify-content-center align-items-center">
-      <Row className="team-comp-title">
-        <TitleComp title={'The team'}/>
-      </Row>
-      <div className="team-comp-content">
-        {
-          teamData.map((val, index) => (
-            <div key={index} className="content-item">
-              <div className="item-header d-flex justify-content-center align-items-center">
-                <div className="avatar">
-                  <img src={TeamAva} alt={val.name}/>
+      <Container className="team-comp-container">
+        <div className="team-comp-content comp-margin-top">
+          <Row className="team-comp-title">
+            <TitleComp title={'The team'}/>
+          </Row>
+          <div className="team-comp-content-items">
+            {
+              teamData.map((val, index) => (
+                <div data-aos={index === 0 ? "fade-down" : index === 1 ? "fade-up" : "fade-left"} key={index}
+                     className="content-item">
+                  <div className="item-header d-flex justify-content-center align-items-center">
+                    <div className="avatar">
+                      <img src={TeamAva} alt={val.name}/>
+                    </div>
+                  </div>
+                  <div className="item-content">
+                    <h6>{val.name.toUpperCase()}</h6>
+                  </div>
                 </div>
-              </div>
-              <div className="item-content">
-                <h6>{val.name.toUpperCase()}</h6>
-              </div>
-            </div>
-          ))
-        }
-      </div>
+              ))
+            }
+          </div>
+        </div>
+      </Container>
     </Container>
   );
 };

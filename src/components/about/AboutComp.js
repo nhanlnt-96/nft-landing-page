@@ -14,13 +14,13 @@ const AboutComp = () => {
         <Row className="about-comp-content comp-margin-top">
           <Col lg={6} md={6} sm={12}
                className="about-comp-left-side d-flex justify-content-center align-items-center">
-            <div className="left-side-container d-flex justify-content-center align-items-center">
+            <div data-aos="zoom-in" className="left-side-container d-flex justify-content-center align-items-center">
               <img src={AboutImg} alt="about-img"/>
             </div>
           </Col>
           <Col lg={6} md={6} sm={12}
                className="about-comp-right-side d-flex justify-content-center align-items-center">
-            <div className="right-side-container">
+            <div data-aos="zoom-in-up" className="right-side-container">
               <div className="about-title">
                 <h2 className="about-title-item">CONTINUITY OF ABOUT US</h2>
               </div>

@@ -196,7 +196,7 @@ const HomepageComp = () => {
           })
         }
         <Row className="homepage-comp-content d-flex justify-content-center align-items-center">
-          <Col lg={7} md={6} sm={12} className="comp-content-title">
+          <Col data-aos="fade-up" lg={7} md={6} sm={12} className="comp-content-title">
             <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, ab aliquam, animi asperiores aut et
               exercitationem facilis fuga minus nisi nulla odit omnis praesentium ratione rerum sapiente sunt!
               Aliquid, consequatur?</h1>
@@ -205,7 +205,7 @@ const HomepageComp = () => {
             }}>Read more
             </button>
           </Col>
-          <Col lg={5} md={6} sm={12} className="comp-content-wallet">
+          <Col data-aos="fade-down" lg={5} md={6} sm={12} className="comp-content-wallet">
             <ResponsiveWrapper flex={1} style={{padding: 24}} test>
               <s.Container
                 flex={2}
