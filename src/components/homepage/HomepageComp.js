@@ -187,7 +187,7 @@ const HomepageComp = () => {
       <Row className="homepage-comp-header">
         <HeaderComp connectBtnClick={onConnectBtnClick}/>
       </Row>
-      <Container className="homepage-comp-container">
+      <Container className="homepage-comp-container comp-margin-top">
         {
           blockchain.errorMsg && notification.info({
             message: `Error`,

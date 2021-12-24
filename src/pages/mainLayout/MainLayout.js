@@ -15,9 +15,9 @@ const MainLayout = () => {
       <Row id="home">
         <HomepageComp/>
       </Row>
-      {/*<Row id="about">*/}
-      {/*  <AboutComp/>*/}
-      {/*</Row>*/}
+      <Row id="about">
+        <AboutComp/>
+      </Row>
       {/*<Row id="dao">*/}
       {/*  <DaoComp/>*/}
       {/*</Row>*/}
