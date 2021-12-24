@@ -1,11 +1,66 @@
+@import "../../styles/variables";
 @import "../../styles/rwd";
 
 .homepage-comp {
-  background: url("../../assets/imgs/bgHome.gif") no-repeat center;
+  background: url("../../assets/imgs/bgHome.webp") no-repeat center;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
+
+  &-container {
+    margin-top: 102.8px;
+  }
 
   &-content {
-    height: calc(100vh - 102.8px);
+    min-height: calc(100vh - 102.8px);
+  }
+
+  @include mobile {
+    &-container {
+      padding: 20px 0 !important;
+    }
+  }
+}
+
+.homepage-comp-content {
+  .comp-content {
+    &-title {
+      padding: 0 24px;
+
+      h1 {
+        color: #ffffff;
+        font-family: TTOctoSquaresExp, sans-serif;
+        text-align: left;
+        font-size: 1.5rem;
+
+        @include mobile {
+          text-align: center;
+        }
+      }
+
+      .connect-btn {
+        margin-top: $space-primary;
+        text-transform: uppercase;
+      }
+
+      @include mobile {
+        text-align: center;
+      }
+    }
+
+    &-wallet {
+      .connect-btn {
+        border: none;
+        color: #000000;
+
+        &:after {
+          color: #ffffff;
+          background-color: rgba(0, 255, 255, .5);
+        }
+      }
+
+      @include mobile {
+        margin-top: $space-primary;
+      }
+    }
   }
 }

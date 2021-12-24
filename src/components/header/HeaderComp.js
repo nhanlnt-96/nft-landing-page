@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {Container, Nav, Navbar} from "react-bootstrap";
 import LogoComp from "../logo/LogoComp";
 import {useSelector} from "react-redux";
@@ -8,7 +8,7 @@ import './HeaderComp.scss';
 const headerMenu = [
     {
         label: "Home",
-        path: "/"
+        path: "#home"
     },
     {
         label: "About",
@@ -34,8 +34,14 @@ const headerMenu = [
 
 const HeaderComp = ({connectBtnClick}) => {
     const blockchain = useSelector((state) => state.blockchain);
+    const [offsetY, setOffsetY] = useState(0);
+    useEffect(() => {
+        window.onscroll = () => {
+            setOffsetY(window.pageYOffset);
+        };
+    }, []);
     return (
-        <Navbar collapseOnSelect expand="lg" className="header-comp">
+        <Navbar collapseOnSelect fixed={"top"} expand="lg" className={`header-comp ${offsetY !== 0 && 'header-active'}`}>
             <Container className="header-comp-container">
                 <Navbar.Brand href="/" className="header-comp-logo">
                     <LogoComp/>
