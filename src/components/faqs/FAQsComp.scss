@@ -4,9 +4,9 @@
 .faqs-comp {
   background-color: #000123;
   position: relative;
+  min-height: 100vh;
 
   &-container {
-    width: 960px;
     padding: 20px 0;
 
     @include mobile {
@@ -40,6 +40,7 @@
 }
 
 .faqs-comp-container .faqs-comp-content {
+  min-height: calc(100vh - 102.8px);
   .content-header {
     height: 150px;
 

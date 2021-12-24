@@ -36,9 +36,9 @@ const faqsData = [
 const FaQsComp = () => {
   return (
     <Container fluid className="faqs-comp d-flex flex-column align-items-center">
-      <div className="faqs-comp-container">
+      <Container className="faqs-comp-container">
         <div className="animate-corner-top"/>
-        <Row className="faqs-comp-content">
+        <Row className="faqs-comp-content comp-margin-top">
           <div className="content-header d-flex justify-content-center align-items-center">
             <div className="item d-flex justify-content-center align-items-center">
               <h6>FAQs</h6>
@@ -48,7 +48,7 @@ const FaQsComp = () => {
             <Accordion flush>
               {
                 faqsData.map((val, index) => (
-                  <Accordion.Item eventKey={index}>
+                  <Accordion.Item data-aos="fade-up" eventKey={index}>
                     <Accordion.Header>{val.question}</Accordion.Header>
                     <Accordion.Body>{val.answer}</Accordion.Body>
                   </Accordion.Item>
@@ -58,7 +58,7 @@ const FaQsComp = () => {
           </div>
         </Row>
         <div className="animate-corner-bottom"/>
-      </div>
+      </Container>
     </Container>
   );
 };
