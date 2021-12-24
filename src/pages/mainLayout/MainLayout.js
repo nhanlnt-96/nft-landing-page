@@ -7,12 +7,16 @@ import RoadmapComp from "../../components/roadmap/RoadmapComp";
 import TeamComp from "../../components/team/TeamComp";
 import FAQsComp from "../../components/faqs/FAQsComp";
 import FooterComp from "../../components/footer/FooterComp";
+import SlideShow from "../../components/slideShow/SlideShow";
 
 const MainLayout = () => {
   return (
     <Container fluid>
       <Row id="home">
         <HomepageComp/>
+      </Row>
+      <Row>
+        <SlideShow/>
       </Row>
       <Row id="about">
         <AboutComp/>
