@@ -18,21 +18,21 @@ const MainLayout = () => {
       <Row id="about">
         <AboutComp/>
       </Row>
-      {/*<Row id="dao">*/}
-      {/*  <DaoComp/>*/}
-      {/*</Row>*/}
-      {/*<Row id="roadmap">*/}
-      {/*  <RoadmapComp/>*/}
-      {/*</Row>*/}
-      {/*<Row id="faqs">*/}
-      {/*  <FAQsComp/>*/}
-      {/*</Row>*/}
-      {/*<Row id="team">*/}
-      {/*  <TeamComp/>*/}
-      {/*</Row>*/}
-      {/*<Row>*/}
-      {/*  <FooterComp/>*/}
-      {/*</Row>*/}
+      <Row id="dao">
+        <DaoComp/>
+      </Row>
+      <Row id="roadmap">
+        <RoadmapComp/>
+      </Row>
+      <Row id="faqs">
+        <FAQsComp/>
+      </Row>
+      <Row id="team">
+        <TeamComp/>
+      </Row>
+      <Row>
+        <FooterComp/>
+      </Row>
     </Container>
   );
 };
