@@ -28,7 +28,7 @@ const TeamComp = () => {
           <div className="team-comp-content-items">
             {
               teamData.map((val, index) => (
-                <div data-aos={index === 0 ? "fade-down" : index === 1 ? "fade-up" : "fade-left"} key={index}
+                <div data-aos="fade-up" key={index}
                      className="content-item">
                   <div className="item-header d-flex justify-content-center align-items-center">
                     <div className="avatar">

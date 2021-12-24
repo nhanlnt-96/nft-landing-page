@@ -8,8 +8,8 @@ import './RoadmapComp.scss';
 const RoadmapComp = () => {
   return (
     <Container fluid className="roadmap-comp d-flex flex-column justify-content-center align-items-center">
-      <Container className="road-map-comp-container">
-        <div className="roadmap-comp-content comp-margin-top">
+      <Container className="road-map-comp-container ">
+        <div className="roadmap-comp-content comp-margin-top d-flex flex-column justify-content-center align-items-center">
           <Row className="roadmap-comp-title">
             <TitleComp title={'Roadmap'}
                        subtitle={`Space Turtles is a full-time project and it will continue to be following the public sale. Below is what we're working towards in the short term.`}/>
