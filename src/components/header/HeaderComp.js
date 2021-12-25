@@ -60,7 +60,7 @@ const HeaderComp = ({connectBtnClick}) => {
           {
             !blockchain.account && (
               <Nav className="justify-content-center align-items-center header-comp-right-custom">
-                <button className="connect-btn" onClick={connectBtnClick}>Connect wallet
+                <button className="connect-btn header-comp-btn-custom" onClick={connectBtnClick}>Connect wallet
                 </button>
               </Nav>
             )

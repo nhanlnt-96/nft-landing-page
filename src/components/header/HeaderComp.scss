@@ -72,6 +72,10 @@
   .header-comp-right-custom {
     flex: 1;
 
+    .header-comp-btn-custom {
+      border: unset;
+    }
+
     @include mobile {
       margin-top: 12px;
     }
