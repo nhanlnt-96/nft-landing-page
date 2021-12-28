@@ -5,6 +5,7 @@
   background: url("../../assets/imgs/bgAbout.jpeg") no-repeat center;
   background-size: cover;
   min-height: 100vh;
+  padding: 20px 0 !important;
 
   .blur-div {
     width: 100%;
@@ -24,58 +25,32 @@
   }
 }
 
-.about-comp-left-side .left-side-container {
-  padding: 20px;
+.about-comp-content {
+  .about-us-content {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
 
-  img {
-    width: 100%;
-    border-radius: 20px;
-  }
-}
-
-.about-comp-right-side {
-  @include mobile {
-    margin-top: 24px !important;
-  }
-}
-
-.about-comp-right-side .right-side-container {
-  padding: 20px 0 !important;
-  z-index: 1;
-
-  @include mobile {
-    padding: 0;
-  }
-
-  @include tablet {
-    padding: 0;
-  }
-
-  .about-title {
-    text-align: center;
-
-    &-item {
-      color: #ff0f7b;
-      font-size: 2rem;
-      font-family: TTOctoSquaresMedium, sans-serif;
+    .about-us-img-item {
+      img {
+        width: 100%;
+      }
     }
-  }
 
-  .about-subtitle {
-    margin-top: 24px;
-
-    &-item {
-      line-height: 2rem;
-      font-size: 1.2rem;
-      text-align: justify;
+    .about-us-text-item {
       color: #ffffff;
       font-family: TTOctoSquaresRegular, sans-serif;
+      text-align: justify;
+      line-height: 20px;
+      display: block;
 
-      b {
-        cursor: pointer;
-        font-weight: bold;
-        color: #3168d8;
+      &:first-letter {
+        font-size: 2rem;
       }
+    }
+
+    @include mobile{
+      grid-template-columns: repeat(1, 1fr);
     }
   }
 }
