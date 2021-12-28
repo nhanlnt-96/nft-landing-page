@@ -15,10 +15,10 @@ const AboutComp = () => {
             <TitleComp title={'CONTINUITY OF ABOUT US'}/>
           </div>
           <div className="about-us-content">
-            <div className="about-us-img-item d-flex justify-content-center align-items-center">
+            <div data-aos="fade-up" className="about-us-img-item d-flex justify-content-center align-items-center">
               <img src={AboutImg} alt="about-us"/>
             </div>
-            <p className="about-us-text-item">We as the creators of the “Space Turtles NFT” aims to illustrate the idea
+            <p data-aos="fade-up" className="about-us-text-item">We as the creators of the “Space Turtles NFT” aims to illustrate the idea
               that everything is possible. We chose the turtle, the slowest creature, and space a destination even
               beyond
               the top of the world. We created the Space Turtles to portray that if you have a dream and you set
@@ -30,7 +30,7 @@ const AboutComp = () => {
               Turtles NFT” want to inspire our community and help them develop high self-esteem, self-assurance and
               instill confidence in their abilities to fearlessly follow their aspirations and flourish while following
               their dreams. This is our dream!</p>
-            <p className="about-us-text-item">We have used all national flags to portray that no matter where you come
+            <p data-aos="fade-up" className="about-us-text-item">We have used all national flags to portray that no matter where you come
               from, if you have hunger to achieve your goals you will succeed. But we didn’t stop there as we also use
               all
               the US state flags. As the flag of the US is a source of pride and inspiration for millions of citizens.
@@ -44,7 +44,7 @@ const AboutComp = () => {
               encourage them to follow their passion and do great things so that they can always raise and wave their
               flag
               at the top.</p>
-            <p className="about-us-text-item">Me and some of our team members have quit their jobs because we wanted to
+            <p data-aos="fade-up" className="about-us-text-item">Me and some of our team members have quit their jobs because we wanted to
               fully devote our time, energy, and talent to the “Space Turtles NFT” project. We needed help to
               successfully
               execute the project, so we found people whose mindsets aligned with ours to work together. After putting
