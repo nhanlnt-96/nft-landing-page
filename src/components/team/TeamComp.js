@@ -1,19 +1,39 @@
 import React from 'react';
 import {Container, Row} from "react-bootstrap";
 import TitleComp from "../title/TitleComp";
-import TeamAva from '../../assets/imgs/teamAva.jpg';
+import Lyft from '../../assets/imgs/lypt.png';
+import Cliff from '../../assets/imgs/cliff.png';
+import Sajal from '../../assets/imgs/sajal.png';
+import Moore from '../../assets/imgs/moore.png';
+import AbuBack from '../../assets/imgs/abuback.png';
 
 import './TeamComp.scss';
 
 const teamData = [
   {
-    name: 'XXXXXXXx'
+    name: 'Lyft',
+    avatar: Lyft,
+    position: 'Director & Visionary of SpaceTurtles NFT'
   },
   {
-    name: 'YYYYYYYY'
+    name: 'Cliff',
+    avatar: Cliff,
+    position: 'Director of Community & Marketing of SpaceTurtles NFT'
   },
   {
-    name: 'ZZZZZZZZ'
+    name: 'Sajal',
+    avatar: Sajal,
+    position: 'Community leader of SpaceTurtles NFT'
+  },
+  {
+    name: 'Mr. Moore',
+    avatar: Moore,
+    position: 'Artist of SpaceTurtles NFT'
+  },
+  {
+    name: 'AbuBlack',
+    avatar: AbuBack,
+    position: 'Smart Contract Engineer & Developer of SpaceTurtles NFT'
   },
 ]
 
@@ -32,11 +52,12 @@ const TeamComp = () => {
                      className="content-item">
                   <div className="item-header d-flex justify-content-center align-items-center">
                     <div className="avatar">
-                      <img src={TeamAva} alt={val.name}/>
+                      <img src={val.avatar} alt={val.name}/>
                     </div>
                   </div>
                   <div className="item-content">
                     <h6>{val.name.toUpperCase()}</h6>
+                    <p>{val.position}</p>
                   </div>
                 </div>
               ))
