@@ -2,7 +2,7 @@ import React from 'react';
 import {Container, Row} from "react-bootstrap";
 import HomepageComp from "../../components/homepage/HomepageComp";
 import AboutComp from "../../components/about/AboutComp";
-import DaoComp from "../../components/dao/DaoComp";
+// import DaoComp from "../../components/dao/DaoComp";
 import RoadmapComp from "../../components/roadmap/RoadmapComp";
 import TeamComp from "../../components/team/TeamComp";
 import FAQsComp from "../../components/faqs/FAQsComp";
@@ -21,9 +21,9 @@ const MainLayout = () => {
       <Row id="about">
         <AboutComp/>
       </Row>
-      <Row id="dao">
-        <DaoComp/>
-      </Row>
+      {/*<Row id="dao">*/}
+      {/*  <DaoComp/>*/}
+      {/*</Row>*/}
       <Row id="roadmap">
         <RoadmapComp/>
       </Row>

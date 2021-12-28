@@ -15,10 +15,10 @@ const headerMenu = [
     label: "About",
     path: "#about"
   },
-  {
-    label: "DAO",
-    path: "#dao"
-  },
+  // {
+  //   label: "DAO",
+  //   path: "#dao"
+  // },
   {
     label: "Roadmap",
     path: "#roadmap"
@@ -49,7 +49,7 @@ const HeaderComp = ({connectBtnClick}) => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" className="header-comp-toggle-custom"/>
         <Navbar.Collapse id="responsive-navbar-nav" className="header-comp-custom-container">
-          <Nav className="justify-content-center align-items-center header-comp-left-custom">
+          <Nav className="justify-content-around align-items-center header-comp-left-custom">
             {
               headerMenu.map((val, index) => (
                 <div className="header-comp-items">

@@ -14,7 +14,7 @@ const slideImages = [Img1, Img2, Img3, Img4, Img5];
 const SlideShow = () => {
     const properties = {
       duration: 1000,
-      slidesToShow: 4,
+      slidesToShow: 5,
       slidesToScroll: 1,
       autoplay: true,
       indicators: false,
