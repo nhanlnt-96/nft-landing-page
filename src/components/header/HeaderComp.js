@@ -4,6 +4,7 @@ import LogoComp from "../logo/LogoComp";
 import {useSelector} from "react-redux";
 
 import './HeaderComp.scss';
+import {FiInstagram, ImFacebook, ImTwitter, ImYoutube} from "react-icons/all";
 
 const headerMenu = [
   {
@@ -56,15 +57,21 @@ const HeaderComp = ({connectBtnClick}) => {
                 </div>
               ))
             }
+            <div className="header-comp-items social-items d-flex justify-content-center align-items-center">
+              <Nav.Link className="social-item" href="#"><ImTwitter/></Nav.Link>
+              <Nav.Link className="social-item" href="#"><ImFacebook/></Nav.Link>
+              <Nav.Link className="social-item" href="#"><ImYoutube/></Nav.Link>
+              <Nav.Link className="social-item" href="#"><FiInstagram/></Nav.Link>
+            </div>
+            {
+              !blockchain.account && (
+                <div className="header-comp-items">
+                  <button className="connect-btn header-comp-btn-custom" onClick={connectBtnClick}>Connect wallet
+                  </button>
+                </div>
+              )
+            }
           </Nav>
-          {
-            !blockchain.account && (
-              <Nav className="justify-content-center align-items-center header-comp-right-custom">
-                <button className="connect-btn header-comp-btn-custom" onClick={connectBtnClick}>Connect wallet
-                </button>
-              </Nav>
-            )
-          }
         </Navbar.Collapse>
       </Container>
     </Navbar>
