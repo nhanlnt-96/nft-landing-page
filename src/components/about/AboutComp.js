@@ -25,8 +25,7 @@ export const useWindowSize = () => {
 const AboutComp = () => {
     const currentWidth = useWindowSize();
     return (
-        <Container fluid className="about-comp d-flex justify-content-center align-items-center">
-            <div className="bg-blur"/>
+        <Container fluid className="about-comp page-bg d-flex justify-content-center align-items-center">
             <Container className="about-comp-container">
                 <Row className="about-comp-content comp-margin-top">
                     <div className="about-comp-title">

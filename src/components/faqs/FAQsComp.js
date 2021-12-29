@@ -35,7 +35,7 @@ const faqsData = [
 
 const FaQsComp = () => {
     return (
-        <Container fluid className="faqs-comp d-flex flex-column align-items-center">
+        <Container fluid className="faqs-comp page-bg d-flex flex-column align-items-center">
             <Container className="faqs-comp-container">
                 <div className="animate-corner-top"/>
                 <Row className="faqs-comp-content comp-margin-top">
