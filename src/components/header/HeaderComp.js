@@ -2,9 +2,9 @@ import React, {useEffect, useState} from 'react';
 import {Container, Nav, Navbar} from "react-bootstrap";
 import LogoComp from "../logo/LogoComp";
 import {useSelector} from "react-redux";
+import {FiInstagram, ImFacebook, ImTwitter, ImYoutube,SiDiscord} from "react-icons/all";
 
 import './HeaderComp.scss';
-import {FiInstagram, ImFacebook, ImTwitter, ImYoutube} from "react-icons/all";
 
 const headerMenu = [
   {
@@ -60,7 +60,8 @@ const HeaderComp = ({connectBtnClick}) => {
             <div className="header-comp-items social-items d-flex justify-content-center align-items-center">
               <Nav.Link className="social-item" href="#"><ImTwitter/></Nav.Link>
               <Nav.Link className="social-item" href="#"><ImFacebook/></Nav.Link>
-              <Nav.Link className="social-item" href="#"><ImYoutube/></Nav.Link>
+              {/*<Nav.Link className="social-item" href="#"><ImYoutube/></Nav.Link>*/}
+              <Nav.Link className="social-item" href="https://discord.gg/egdbc6M3"><SiDiscord/></Nav.Link>
               <Nav.Link className="social-item" href="#"><FiInstagram/></Nav.Link>
             </div>
             {

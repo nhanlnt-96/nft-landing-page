@@ -8,15 +8,6 @@
   min-height: 100vh;
   position: relative;
 
-  &-bg-blur {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    background: url("../../assets/imgs/bgRoadmapBlur.png") no-repeat center;
-    background-size: cover;
-  }
-
   &-container {
     @include mobile {
       padding-right: 0 !important;

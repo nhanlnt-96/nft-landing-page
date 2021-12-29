@@ -26,7 +26,7 @@ const AboutComp = () => {
     const currentWidth = useWindowSize();
     return (
         <Container fluid className="about-comp d-flex justify-content-center align-items-center">
-            <div className="blur-div"/>
+            <div className="bg-blur"/>
             <Container className="about-comp-container">
                 <Row className="about-comp-content comp-margin-top">
                     <div className="about-comp-title">

@@ -2,9 +2,10 @@
 @import "../../styles/rwd";
 
 .homepage-comp {
-  background: url("../../assets/imgs/bgHome.webp") no-repeat center;
+  background: url("../../assets/imgs/bgRoadmap.png") no-repeat center;
   background-size: cover;
   min-height: 100vh;
+  padding: 20px 0 !important;
 
   &-content {
     min-height: calc(100vh - 102.8px);

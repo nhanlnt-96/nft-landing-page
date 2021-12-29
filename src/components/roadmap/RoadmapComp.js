@@ -8,7 +8,7 @@ import './RoadmapComp.scss';
 const RoadmapComp = () => {
   return (
     <Container fluid className="roadmap-comp d-flex flex-column justify-content-center align-items-center">
-      <div className="roadmap-comp-bg-blur"/>
+      <div className="bg-blur"/>
       <Container className="roadmap-comp-container">
         <div
           className="roadmap-comp-content comp-margin-top d-flex flex-column justify-content-center align-items-center">

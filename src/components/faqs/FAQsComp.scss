@@ -2,7 +2,9 @@
 @import "../../styles/rwd";
 
 .faqs-comp {
-  background-color: #000123;
+  background: url("../../assets/imgs/bgRoadmap.png") no-repeat center;
+  background-size: cover;
+  padding: 20px 0;
   position: relative;
   min-height: 100vh;
 

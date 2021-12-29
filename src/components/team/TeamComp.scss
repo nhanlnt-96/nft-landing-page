@@ -2,7 +2,8 @@
 @import "../../styles/rwd";
 
 .team-comp {
-  background-color: rgb(0, 1, 35);
+  background: url("../../assets/imgs/bgRoadmap.png") no-repeat center;
+  background-size: cover;
   padding: 20px 0;
   min-height: 100vh;
 
