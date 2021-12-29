@@ -81,7 +81,7 @@
 
     .accordion-body {
       font-family: TTOctoSquaresMedium, sans-serif;
-      font-size: 1.2rem;
+      font-size: 1.8rem;
 
       @include mobile {
         font-size: 14px;
@@ -96,6 +96,7 @@
     .accordion-button {
       background-color: transparent;
       color: #ffffff;
+      font-size: 2rem;
     }
 
     .accordion-flush .accordion-collapse {
