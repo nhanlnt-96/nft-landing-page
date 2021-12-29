@@ -58,7 +58,7 @@ const HeaderComp = ({connectBtnClick}) => {
               ))
             }
             <div className="header-comp-items social-items d-flex justify-content-center align-items-center">
-              <Nav.Link className="social-item" href="#"><ImTwitter/></Nav.Link>
+              <Nav.Link className="social-item" href="https://twitter.com/spaceturtlesNFT"><ImTwitter/></Nav.Link>
               {/*<Nav.Link className="social-item" href="#"><ImFacebook/></Nav.Link>*/}
               {/*<Nav.Link className="social-item" href="#"><ImYoutube/></Nav.Link>*/}
               <Nav.Link className="social-item" href="https://discord.gg/egdbc6M3"><SiDiscord/></Nav.Link>

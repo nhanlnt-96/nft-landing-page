@@ -96,7 +96,15 @@
     .accordion-button {
       background-color: transparent;
       color: #ffffff;
-      font-size: 2rem;
+      font-size: 2rem !important;
+
+      @include mobile {
+        font-size: unset !important;
+      }
+
+      @include tablet {
+        font-size: unset !important;
+      }
     }
 
     .accordion-flush .accordion-collapse {
