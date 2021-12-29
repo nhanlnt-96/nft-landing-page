@@ -41,6 +41,7 @@
 
 .faqs-comp-container .faqs-comp-content {
   min-height: calc(100vh - 102.8px);
+
   .content-header {
     height: 150px;
 
@@ -66,6 +67,11 @@
 
     .accordion-flush .accordion-item .accordion-button {
       font-family: TTOctoSquaresExp, sans-serif;
+      font-size: 1.3rem;
+
+      @include mobile {
+        font-size: 14px;
+      }
 
       &:focus {
         outline: none !important;
@@ -75,6 +81,11 @@
 
     .accordion-body {
       font-family: TTOctoSquaresMedium, sans-serif;
+      font-size: 1.2rem;
+
+      @include mobile {
+        font-size: 14px;
+      }
     }
 
     .accordion-item {

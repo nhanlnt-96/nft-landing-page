@@ -44,7 +44,7 @@ const HeaderComp = ({connectBtnClick}) => {
   return (
     <Navbar collapseOnSelect fixed={"top"} expand="lg" className={`header-comp ${offsetY !== 0 && 'header-active'}`}>
       <Container className="header-comp-container">
-        <Navbar.Brand href="/" className="header-comp-logo">
+        <Navbar.Brand href="#home" className="header-comp-logo">
           <LogoComp/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" className="header-comp-toggle-custom"/>

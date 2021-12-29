@@ -1,42 +1,46 @@
 .logo-comp {
-  width: 100%;
+  width: 100px;
   text-align: center;
 
-  .neon-text {
-    animation: flicker 1.5s infinite alternate;
+  img {
+    width: 100%;
   }
 
-  h1, h2 {
-    font-family: TTOctoSquaresExp, sans-serif;
-    margin-bottom: 0;
-  }
-
-  h1 {
-    color: #3168d8;
-    font-size: 3rem;
-  }
-
-  h2 {
-    font-size: 1.8rem;
-    color: #7900ff;
-  }
+  //.neon-text {
+  //  animation: flicker 1.5s infinite alternate;
+  //}
+  //
+  //h1, h2 {
+  //  font-family: TTOctoSquaresExp, sans-serif;
+  //  margin-bottom: 0;
+  //}
+  //
+  //h1 {
+  //  color: #3168d8;
+  //  font-size: 3rem;
+  //}
+  //
+  //h2 {
+  //  font-size: 1.8rem;
+  //  color: #7900ff;
+  //}
 }
 
 /* Flickering animation */
-@keyframes flicker {
-  0%, 18%, 22%, 25%, 53%, 57%, 100% {
-    text-shadow: 0 0 2px #ffffff,
-    0 0 11px #ffffff,
-    0 0 19px #ffffff,
-    0 0 40px #ffffff,
-    0 0 80px #3168d8,
-    0 0 90px #3168d8,
-    0 0 100px #3168d8,
-    0 0 150px #3168d8;
-
-  }
-
-  20%, 24%, 55% {
-    text-shadow: none;
-  }
-}
+//@keyframes flicker {
+//  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+//    text-shadow: 0 0 2px #ffffff,
+//    0 0 11px #ffffff,
+//    0 0 19px #ffffff,
+//    0 0 40px #ffffff,
+//    0 0 80px #3168d8,
+//    0 0 90px #3168d8,
+//    0 0 100px #3168d8,
+//    0 0 150px #3168d8;
+//
+//  }
+//
+//  20%, 24%, 55% {
+//    text-shadow: none;
+//  }
+//}
