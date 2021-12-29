@@ -6,8 +6,7 @@ import './FooterComp.scss';
 
 const FooterComp = () => {
   return (
-    <Container fluid className="footer-comp d-flex justify-content-center align-items-center">
-      <div className="footer-comp-bg-blur"/>
+    <Container fluid className="footer-comp page-bg d-flex justify-content-center align-items-center">
       <div className="footer-comp-container">
         <div className="footer-comp-content d-flex flex-column justify-content-center align-items-center">
           <h6>JOIN THE COMMUNITY</h6>
