@@ -14,7 +14,7 @@ const faqsData = [
             " the space turtles at a discounted price of 0.05 eth and get the biggest chance of getting a rare space turtle with a flag.."
     },
     {
-        question: 'WHAT WILL THE PRICE BE FOR THE SPACE TURTLES? ?',
+        question: 'WHAT WILL THE PRICE BE FOR THE SPACE TURTLES?',
         answer: "The turtlemint (presale) will cost 0.05 eth and after the first 1000 is minted it will cost 0.07 eth."
     },
     {
