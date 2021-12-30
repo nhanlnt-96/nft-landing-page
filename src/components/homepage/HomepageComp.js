@@ -187,7 +187,7 @@ const HomepageComp = () => {
     };
 
     return (
-        <Container fluid className="homepage-comp">
+        <Container fluid className="homepage-comp page-bg">
             <Row className="homepage-comp-header">
                 <HeaderComp connectBtnClick={onConnectBtnClick}/>
             </Row>

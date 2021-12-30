@@ -39,7 +39,7 @@ const teamData = [
 
 const TeamComp = () => {
     return (
-        <Container fluid className="team-comp d-flex flex-column justify-content-center align-items-center">
+        <Container fluid className="team-comp page-bg d-flex flex-column justify-content-center align-items-center">
             <Container className="team-comp-container">
                 <div className="team-comp-content comp-margin-top">
                     <Row className="team-comp-title">

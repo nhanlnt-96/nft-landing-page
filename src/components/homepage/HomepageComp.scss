@@ -2,8 +2,6 @@
 @import "../../styles/rwd";
 
 .homepage-comp {
-  background: url("../../assets/imgs/bgRoadmap.png") no-repeat center;
-  background-size: cover;
   min-height: 100vh;
   padding: 20px 0 !important;
 
@@ -19,6 +17,8 @@
 }
 
 .homepage-comp-content {
+  width: 100%;
+
   .comp-content {
     //&-title {
     //  padding: 0 24px;
