@@ -224,7 +224,7 @@ const HomepageComp = () => {
           </Col>
           <Col lg={6} md={5} sm={12}
                className="comp-content-wallet d-flex flex-column justify-content-center align-items-center text-center">
-            <h2 className="homepage-title">WELCOME</h2>
+            <h2 className="homepage-title">WELCOME TO SPACE TURTLES COLLECTIONS</h2>
             {
               blockchain.account && (
                 <ResponsiveWrapper data-aos="fade-up" flex={1} style={{

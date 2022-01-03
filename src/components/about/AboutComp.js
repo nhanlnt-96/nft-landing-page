@@ -1,6 +1,6 @@
 import React, {useLayoutEffect, useState} from 'react';
 import {Col, Container, Row} from "react-bootstrap";
-import AboutImg from '../../assets/imgs/aboutImg.jpeg';
+import AboutImg from '../../assets/imgs/aboutImg.png';
 import AboutImg1 from '../../assets/imgs/aboutImg1.png';
 import AboutImg2 from '../../assets/imgs/aboutImg2.png';
 import AboutImg3 from '../../assets/imgs/aboutImg3.png';
