@@ -202,7 +202,7 @@ const HomepageComp = () => {
           })
         }
         <Row className="homepage-comp-content d-flex justify-content-center align-items-center">
-          <Col data-aos="fade-up" lg={6} md={7} sm={12} className="comp-content-img">
+          <Col lg={6} md={7} sm={12} className="comp-content-img">
             {/*<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, ab aliquam, animi asperiores*/}
             {/*    aut et*/}
             {/*    exercitationem facilis fuga minus nisi nulla odit omnis praesentium ratione rerum sapiente*/}
@@ -222,7 +222,7 @@ const HomepageComp = () => {
             {/*</div>*/}
             <img src={Logo} alt="space-turtle"/>
           </Col>
-          <Col data-aos="fade-down" lg={6} md={5} sm={12}
+          <Col lg={6} md={5} sm={12}
                className="comp-content-wallet d-flex flex-column justify-content-center align-items-center text-center">
             <h2 className="homepage-title">WELCOME</h2>
             {
