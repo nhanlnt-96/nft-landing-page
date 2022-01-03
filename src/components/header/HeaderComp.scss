@@ -23,9 +23,9 @@
     flex: 3;
 
     .header-comp-items {
-      .header-comp-btn-custom {
-        border: unset;
-      }
+      //.header-comp-btn-custom {
+      //  border: unset;
+      //}
 
       @include mobile {
         margin: 10px 0;
