@@ -6,7 +6,7 @@ import './SlideShow.scss';
 
 const SlideShow = ({slideImages}) => {
     const properties = {
-      duration: 1000,
+      duration: 500,
       slidesToShow: 7,
       slidesToScroll: 1,
       autoplay: true,
