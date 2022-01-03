@@ -18,7 +18,7 @@
   }
 
   .main-title {
-    font-family: TTOctoSquaresExp, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 3rem;
 
@@ -30,7 +30,7 @@
   .main-subtitle {
     margin-top: $space-primary;
     font-size: 1.3rem;
-    font-family: TTOctoSquaresRegular, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     @include mobile {
       font-size: 1.1rem;
     }

@@ -57,16 +57,16 @@ const AboutComp = () => {
                             instill confidence in their abilities to fearlessly follow their aspirations and flourish
                             while following
                             their dreams. This is our dream!
-                            {
-                                currentWidth >= 1024 && (
-                                    <div className="about-img">
-                                        <img src={AboutImg1} alt="about-us-turtle"/>
-                                        <img src={AboutImg2} alt="about-us-turtle"/>
-                                        <img src={AboutImg3} alt="about-us-turtle"/>
-                                        <img src={AboutImg4} alt="about-us-turtle"/>
-                                    </div>
-                                )
-                            }
+                            {/*{*/}
+                            {/*    currentWidth >= 1024 && (*/}
+                            {/*        <div className="about-img">*/}
+                            {/*            <img src={AboutImg1} alt="about-us-turtle"/>*/}
+                            {/*            <img src={AboutImg2} alt="about-us-turtle"/>*/}
+                            {/*            <img src={AboutImg3} alt="about-us-turtle"/>*/}
+                            {/*            <img src={AboutImg4} alt="about-us-turtle"/>*/}
+                            {/*        </div>*/}
+                            {/*    )*/}
+                            {/*}*/}
                         </p>
                         <p data-aos="fade-up" className="about-us-text-item">We have used all national flags to portray
                             that no matter where you come

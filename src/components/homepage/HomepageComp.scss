@@ -2,11 +2,17 @@
 @import "../../styles/rwd";
 
 .homepage-comp {
-  min-height: 100vh;
+  height: 100vh;
   padding: 20px 0 !important;
 
   &-content {
-    min-height: calc(100vh - 102.8px);
+    height: calc(100vh - 102.8px);
+  }
+
+  &-container {
+    @include mobile {
+      margin-right: 0;
+    }
   }
 
   @include mobile {
@@ -45,9 +51,9 @@
     //}
 
     &-img {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-gap: 30px;
+      //display: grid;
+      //grid-template-columns: repeat(2, 1fr);
+      //grid-gap: 30px;
 
       @include mobile {
         grid-gap: 15px;
@@ -73,6 +79,10 @@
           }
         }
       }
+
+      img {
+        width: 100%;
+      }
     }
 
     &-wallet {
@@ -86,8 +96,11 @@
         }
       }
 
-      @include mobile {
-        margin-top: $space-primary;
+      .homepage-title {
+        font-size: 3rem;
+        font-weight: bold;
+        color: #ffffff;
+        font-family: 'Montserrat', sans-serif;
       }
     }
   }
@@ -103,7 +116,7 @@
   text-decoration: none;
   overflow: hidden;
   transition: 0.2s;
-  font-family: TTOctoSquaresLight, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 
   &:hover {
     color: #ffffff;

@@ -30,7 +30,11 @@ const headerMenu = [
   {
     label: "Team",
     path: "#team"
-  }
+  },
+  {
+    label: "Story",
+    path: "#story"
+  },
 ]
 
 const HeaderComp = ({connectBtnClick}) => {

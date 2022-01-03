@@ -1,0 +1,46 @@
+@import "../../styles/variables";
+@import "../../styles/rwd";
+
+.story-comp {
+  padding: 20px 0;
+  min-height: 100vh;
+
+  &-content {
+    min-height: calc(100vh - 102.8px);
+  }
+}
+
+.story-comp-content .story-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+
+  @include mobile {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+  }
+
+  @include tablet {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+  }
+
+  .story-img-item img {
+    width: 80%;
+    border-radius: 15px;
+  }
+
+  .story-text-item {
+    display: inline-block;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 20px;
+    text-align: justify;
+    text-indent: 1rem;
+
+    &:first-letter {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+  }
+}
