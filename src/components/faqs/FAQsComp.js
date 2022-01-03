@@ -2,6 +2,7 @@ import React from 'react';
 import {Accordion, Container, Row} from "react-bootstrap";
 
 import './FAQsComp.scss';
+import TitleComp from "../title/TitleComp";
 
 const faqsData = [
     {
@@ -40,9 +41,10 @@ const FaQsComp = () => {
                 <div className="animate-corner-top"/>
                 <Row className="faqs-comp-content comp-margin-top">
                     <div className="content-header d-flex justify-content-center align-items-center">
-                        <div className="item d-flex justify-content-center align-items-center">
-                            <h6>FAQs</h6>
-                        </div>
+                        {/*<div className="item d-flex justify-content-center align-items-center">*/}
+                        {/*    <h6>FAQs</h6>*/}
+                        {/*</div>*/}
+                        <TitleComp title={'FAQS'}/>
                     </div>
                     <div className="content-detail">
                         <Accordion flush>

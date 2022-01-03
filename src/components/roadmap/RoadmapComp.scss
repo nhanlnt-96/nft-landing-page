@@ -27,7 +27,7 @@
     .roadmap-subtitle {
       z-index: 1;
       color: #ffffff;
-      font-family: TTOctoSquaresExp, sans-serif;
+      font-family: 'Montserrat', sans-serif;
 
       @include mobile {
         padding-right: 0 !important;
@@ -62,11 +62,12 @@
     }
 
     .title {
-      font-family: TTOctoSquaresExp, sans-serif;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
     }
 
     .subtitle {
-      font-family: TTOctoSquaresMedium, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: .9rem;
       line-height: 1rem;
       margin-top: 10px;
@@ -207,6 +208,7 @@
   .title {
     font-size: 1.2rem;
     margin-bottom: 12px;
+    font-weight: bold;
 
     @include mobile {
       font-size: 1rem !important;
@@ -230,7 +232,7 @@
   .desc {
     color: #000000;
     font-size: .8rem;
-    font-family: TTOctoSquaresLight, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: justify;
   }
 }
