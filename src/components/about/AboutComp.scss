@@ -44,6 +44,16 @@
       display: block;
       position: relative;
 
+      @include tablet {
+        line-height: 1.3rem;
+        font-size: unset;
+      }
+
+      @include wide-desktop {
+        font-size: 1.1rem;
+        line-height: 2rem;
+      }
+
       &:first-letter {
         font-size: 2rem;
       }

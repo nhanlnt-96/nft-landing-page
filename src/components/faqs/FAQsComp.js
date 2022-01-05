@@ -6,23 +6,24 @@ import TitleComp from "../title/TitleComp";
 
 const faqsData = [
   {
-    question: 'HOW DO I GET A SPACE TURTLE??',
-    answer: ["You mint it at our website (it's in development)."]
+    question: 'HOW DO I GET A SPACETURTLE??',
+    answer: ["You mint it at our website https://spaceturtles.vip"]
   },
   {
-    question: 'WHEN ARE THE SPACE TURTLES DROPPING?',
-    answer: ["We will be launching the Turtlemint in January, and only the Whitelisted will be able to mint the Space Turtles at a discounted price of 0.05 ETH and get the biggest chance of getting a rare Space Turtle with a flag."]
+    question: 'WHEN ARE THE SPACETURTLES DROPPING?',
+    answer: ["We will be launching the Turtlemint in January, and only the Whitelisted will be able to mint the" +
+    " SpaceTurtles at a discounted price of 0.055 ETH and get the biggest chance of getting a rare Space Turtle with a flag."]
   },
   {
-    question: 'WHAT WILL THE PRICE BE FOR THE SPACE TURTLES?',
+    question: 'WHAT WILL THE PRICE BE FOR THE SPACETURTLES?',
     answer: ["The Turtlemint (Presale) will cost 0.055 ETH and after the first 1000 is minted it will cost 0.07 ETH."]
   },
   {
-    question: 'WHAT TYPE OF TOKENS ARE THE SPACE TURTLES?',
-    answer: ["Space Turtles is an ERC-721 token and all images are hosted on IPFS and that means that files stored on IPFS are resistant to tampering and censorship. So they are here with us in eternity."]
+    question: 'WHAT TYPE OF TOKENS ARE THE SPACETURTLES?',
+    answer: ["SpaceTurtles is an ERC-721 token and all images are hosted on IPFS and that means that files stored on IPFS are resistant to tampering and censorship. So they are here with us in eternity."]
   },
   {
-    question: 'HOW MANY SPACE TURTLES SHOULD I MINT?',
+    question: 'HOW MANY SPACETURTLES SHOULD I MINT?',
     answer: ["Well, honestly that's not for me to answer. Only you can decide how much you can afford and how much you can invest in the project. But one thing is for sure and that is the more you mint in the beginning the likelier it is for you to get a Space Turtle with a flag, and that can be resold to us creators for 1 ETH or even more if you decide to hold on to it. It's totally up to you but the chance of actually getting a Space Turtle in the first round is way higher than in the other ones."]
   },
   {
@@ -31,7 +32,7 @@ const faqsData = [
   },
   {
     question: 'Will the price go up for this NFT?',
-    answer: ["Nothing in life is guaranteed except death and one more thing in this life, but one thing is certain, we have all the tools and even more to get to the top. If we compare our art, roadmap, team, and connections with other NFT's we can by far say that we are going for the top spot and that is truly my honest opinion. After turtlemint (presale) is over the mintprice will be 0.07 ETH and we don't worry about floor price dropping because we have an intense roadmap that has many points on the way. The HODLers will be the winners at the end for sure because the art minted in the beginning will have much greater value the further we go on the roadmap let alone the value of the art itself. And when we release roadmap 2.0, all those HODLers will be very very happy Space Turtles, and that is the second guarantee we have in life."]
+    answer: ["Nothing in life is guaranteed except death and one more thing in this life, but one thing is certain, we have all the tools and even more to get to the top. If we compare our art, roadmap, team, and connections with other NFT's we can by far say that we are going for the top spot and that is truly my honest opinion. After turtlemint (presale) is over the mintprice will be 0.07 ETH and we don't worry about floor price dropping because we have an intense roadmap that has many points on the way. The HODLers will be the winners at the end for sure because the art minted in the beginning will have much greater value the further we go on the roadmap let alone the value of the art itself. And when we release roadmap 2.0, all those HODLers will be very very happy SpaceTurtles, and that is the second guarantee we have in life."]
   },
   {
     question: 'How many SpaceTurtles will there be?',
