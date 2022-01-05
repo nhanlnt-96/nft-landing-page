@@ -1,6 +1,7 @@
 $mobile-width: 320px;
 $tablet-width: 768px;
 $desktop-width: 1024px;
+$wide-screen-width: 1200px;
 
 @mixin smallScreen {
   @media (max-width: #{$mobile-width}) {
@@ -22,6 +23,12 @@ $desktop-width: 1024px;
 
 @mixin desktop {
   @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+@mixin wide-desktop {
+  @media (min-width: #{$wide-screen-width}) {
     @content;
   }
 }

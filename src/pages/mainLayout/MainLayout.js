@@ -97,9 +97,9 @@ const MainLayout = () => {
       <Row>
         <SlideShow slideImages={slideImages2}/>
       </Row>
-      <Row>
-        <FooterComp/>
-      </Row>
+      {/*<Row>*/}
+      {/*  <FooterComp/>*/}
+      {/*</Row>*/}
     </Container>
   );
 };

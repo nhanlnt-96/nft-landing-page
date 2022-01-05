@@ -73,6 +73,10 @@
       margin-top: 10px;
     }
 
+    @include smallScreen{
+      max-width: 60px !important;
+    }
+
     @include mobile {
       max-width: 65px;
 

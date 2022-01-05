@@ -22,12 +22,12 @@ const RoadmapComp = () => {
               <div data-aos="fade-up" className="roadmap-start">
                 <div className="zoom-out">
                   <h6 className="title">START</h6>
-                  <p className="subtitle">The Roadmap is divided into 10 parts which are 10% each.</p>
+                  <p className="subtitle">The Roadmap is divided into 9 parts which are 10% each.</p>
                   <span className="desc">Most of the flags are placed in the Turtlemint (presale) where we as creators guarantee that if you get one of them that we will happily rebuy the art for 1 ETH. But if you decide to hold the same art until we reach the end of the 10% of the roadmap then you will be guaranteed 1.2 ETH if resold to us. And all the members holding 3 random SpaceTurtles at the end of the Turtlemint will be in our giveaway where we airdrop 20 Space Turtles.</span>
                 </div>
                 <div className="not-zoom">
                   <h6 className="title">START</h6>
-                  <p className="subtitle">The Roadmap is divided into 10 parts which are 10% each.</p>
+                  <p className="subtitle">The Roadmap is divided into 9 parts which are 10% each.</p>
                 </div>
               </div>
               <div data-aos="fade-down" className="roadmap-10">
