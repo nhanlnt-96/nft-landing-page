@@ -91,11 +91,11 @@ const MainLayout = () => {
       <Row id="team">
         <TeamComp/>
       </Row>
-      <Row id="story">
-        <StoryComp/>
-      </Row>
       <Row>
         <SlideShow slideImages={slideImages2}/>
+      </Row>
+      <Row id="story">
+        <StoryComp/>
       </Row>
       {/*<Row>*/}
       {/*  <FooterComp/>*/}
