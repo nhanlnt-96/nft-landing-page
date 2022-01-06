@@ -13,7 +13,7 @@
 .story-comp-content .story-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 30px;
+  grid-gap: 20px;
 
   @include mobile {
     grid-template-columns: repeat(1, 1fr);
