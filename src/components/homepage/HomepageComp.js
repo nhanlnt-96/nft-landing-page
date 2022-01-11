@@ -13,6 +13,7 @@ import Img3 from '../../assets/imgs/homeImg3.png';
 import Img4 from '../../assets/imgs/homeImg4.png';
 import Logo from '../../assets/imgs/logo.png';
 import './HomepageComp.scss';
+import {CountDown} from "./components/CountDown";
 
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
@@ -407,6 +408,10 @@ const HomepageComp = () => {
                   </ResponsiveWrapper>
                 )
               }
+              <div className="homepage-comp-countdown d-flex flex-column justify-content-center align-items-center">
+                <p className="countdown-title">Start in:</p>
+                <CountDown/>
+              </div>
             </div>
           </div>
         </Row>
