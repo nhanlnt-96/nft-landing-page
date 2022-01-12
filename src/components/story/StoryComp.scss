@@ -5,6 +5,13 @@
   padding: 20px 0;
   min-height: 100vh;
 
+  &-container {
+    @include mobile {
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+    }
+  }
+
   &-content {
     min-height: calc(100vh - 102.8px);
   }
@@ -50,33 +57,46 @@
     }
   }
 
-  .last-content .contact {
-    margin-top: 30px;
-
-    @include mobile {
-      margin-top: 24px;
-    }
-
-    h6 {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 2rem;
-      color: #ffffff;
-      font-weight: bold;
-      text-align: center;
+  .last-content {
+    .contact {
+      margin-top: 30px;
 
       @include mobile {
-        font-size: 1.5rem;
+        margin-top: 24px;
+        flex-direction: column !important;
       }
-    }
 
-    .contact-social {
-      width: 60%;
-      margin-top: $space-primary;
-
-      a {
-        text-decoration: none;
-        color: #ffffff;
+      h6 {
+        font-family: 'Montserrat', sans-serif;
         font-size: 2rem;
+        color: #ffffff;
+        font-weight: bold;
+        text-align: center;
+
+        @include mobile {
+          font-size: 1.5rem;
+        }
+      }
+
+      .contact-social {
+        width: 60%;
+        margin-top: $space-primary;
+
+        a {
+          text-decoration: none;
+          color: #ffffff;
+          font-size: 2rem;
+        }
+      }
+
+      .img {
+        img {
+          width: 100%;
+        }
+
+        @include mobile {
+          margin-top: 24px;
+        }
       }
     }
   }
