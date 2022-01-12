@@ -1,10 +1,11 @@
 import React from 'react';
-import {Container, Row} from "react-bootstrap";
+import {Col, Container, Row} from "react-bootstrap";
 import TitleComp from "../title/TitleComp";
 import StoryImg from '../../assets/imgs/slideShow27.png';
+import {ImTwitter, SiDiscord} from "react-icons/all";
+import FooterImg from '../../assets/imgs/storyFooter.png';
 
 import './StoryComp.scss';
-import {ImTwitter, SiDiscord} from "react-icons/all";
 
 const StoryComp = () => {
   return (
@@ -67,20 +68,27 @@ const StoryComp = () => {
               America expanded by sowing seeds in many hotspots and filling the gaps with commerce, industries, and
               innovative thinking. </p>
             <div className="last-content">
-              <p data-aos="fade-up" className="story-text-item">Humanity has always discovered ways to thrive under challenging circumstances, and
+              <p data-aos="fade-up" className="story-text-item">Humanity has always discovered ways to thrive under
+                challenging circumstances, and
                 we will do so in space as well. We can't start living and working in space unless we first get there.
-                And it is our purpose to leave the cradle of our mother planet.<br/><p className="story-text-item margin-scope">So
+                And it is our purpose to leave the cradle of our mother planet.<br/><p
+                  className="story-text-item margin-scope">So
                   welcome to our special community where not only will you enjoy the art, get into a great community but
                   also see how the demand after your bellowed art will rise which means that while you are enjoying
                   yourself, you artwork is going up in value. In the future, we will have brief interviews with
                   different podcasts regarding our art and the creators behind it. But for now, just enjoy your stay in
                   our welcoming community and get ready for the next big hit in the NFT world. Welcome fellow
                   Spaceturtle.</p></p>
-              <div className="contact d-flex flex-column justify-content-center align-items-center">
-                <h6>JOIN THE COMMUNITY</h6>
-                <div className="contact-social d-flex justify-content-evenly align-items-center">
-                  <a href="https://twitter.com/spaceturtlesNFT"><ImTwitter/></a>
-                  <a href="https://discord.gg/egdbc6M3"><SiDiscord/></a>
+              <div className="contact d-flex flex-row justify-content-center align-items-center">
+                <div className="community d-flex flex-column justify-content-center align-items-center">
+                  <h6>JOIN THE COMMUNITY</h6>
+                  <div className="contact-social d-flex justify-content-evenly align-items-center">
+                    <a href="https://twitter.com/spaceturtlesNFT"><ImTwitter/></a>
+                    <a href="https://discord.gg/egdbc6M3"><SiDiscord/></a>
+                  </div>
+                </div>
+                <div className="img">
+                  <img src={FooterImg} alt="turtles"/>
                 </div>
               </div>
             </div>
