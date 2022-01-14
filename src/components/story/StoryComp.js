@@ -87,9 +87,9 @@ const StoryComp = () => {
                     <a href="https://discord.gg/egdbc6M3"><SiDiscord/></a>
                   </div>
                 </div>
-                <div className="img">
-                  <img src={FooterImg} alt="turtles"/>
-                </div>
+                {/*<div className="img">*/}
+                {/*  <img src={FooterImg} alt="turtles"/>*/}
+                {/*</div>*/}
               </div>
             </div>
           </div>

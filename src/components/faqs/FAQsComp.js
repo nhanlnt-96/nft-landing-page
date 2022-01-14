@@ -12,11 +12,12 @@ const faqsData = [
   {
     question: 'WHEN ARE THE SPACETURTLES DROPPING?',
     answer: ["We will be launching the Turtlemint in January, and only the Whitelisted will be able to mint the" +
-    " SpaceTurtles at a discounted price of 0.055 ETH and get the biggest chance of getting a rare Space Turtle with a flag."]
+    " SpaceTurtles at a discounted price of 0.06 ETH and get the biggest chance of getting a rare Space Turtle with" +
+    " a flag."]
   },
   {
     question: 'WHAT WILL THE PRICE BE FOR THE SPACETURTLES?',
-    answer: ["The Turtlemint (Presale) will cost 0.055 ETH and after the first 1000 is minted it will cost 0.07 ETH."]
+    answer: ["The Turtlemint (Presale) will cost 0.06 ETH and after the first 1000 is minted it will cost 0.08 ETH."]
   },
   {
     question: 'WHAT TYPE OF TOKENS ARE THE SPACETURTLES?',
@@ -32,11 +33,13 @@ const faqsData = [
   },
   {
     question: 'Will the price go up for this NFT?',
-    answer: ["Nothing in life is guaranteed except death and one more thing in this life, but one thing is certain, we have all the tools and even more to get to the top. If we compare our art, roadmap, team, and connections with other NFT's we can by far say that we are going for the top spot and that is truly my honest opinion. After turtlemint (presale) is over the mintprice will be 0.07 ETH and we don't worry about floor price dropping because we have an intense roadmap that has many points on the way. The HODLers will be the winners at the end for sure because the art minted in the beginning will have much greater value the further we go on the roadmap let alone the value of the art itself. And when we release roadmap 2.0, all those HODLers will be very very happy SpaceTurtles, and that is the second guarantee we have in life."]
+    answer: ["Nothing in life is guaranteed except death and one more thing in this life, but one thing is certain," +
+    " we have all the tools and even more to get to the top. If we compare our art, roadmap, team, and connections with other NFT's we can by far say that we are going for the top spot and that is truly my honest opinion. After turtlemint (presale) is over the mintprice will be 0.08 ETH and we don't worry about floor price dropping because we have an intense roadmap that has many points on the way. The HODLers will be the winners at the end for sure because the art minted in the beginning will have much greater value the further we go on the roadmap let alone the value of the art itself. And when we release roadmap 2.0, all those HODLers will be very very happy SpaceTurtles, and that is the second guarantee we have in life."]
   },
   {
     question: 'How many SpaceTurtles will there be?',
-    answer: ["There will be 9000 different SpaceTurtles where 305 will be SUPER rare (those with flags) and amongst the rest, there will be 700 extra rare done with over 500 special handmade traits. Every part of the SpaceTurtles is handcrafted by our artist."]
+    answer: ["There will be 9000 different SpaceTurtles where 304 will be SUPER rare (those with flags) and amongst" +
+    " the rest, there will be 700 extra rare done with over 500 special handmade traits. Every part of the SpaceTurtles is handcrafted by our artist."]
   },
   {
     question: 'How many rares will there be in the Turtlemint (Presale)?',
