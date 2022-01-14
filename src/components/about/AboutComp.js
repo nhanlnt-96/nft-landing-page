@@ -1,6 +1,6 @@
 import React, {useLayoutEffect, useState} from 'react';
 import {Col, Container, Row} from "react-bootstrap";
-import AboutImg from '../../assets/imgs/aboutImg.jpeg';
+import AboutImg from '../../assets/imgs/aboutImg.png';
 import AboutImg1 from '../../assets/imgs/aboutImg1.png';
 import AboutImg2 from '../../assets/imgs/aboutImg2.png';
 import AboutImg3 from '../../assets/imgs/aboutImg3.png';
@@ -32,10 +32,6 @@ const AboutComp = () => {
                         <TitleComp title={'ABOUT US'}/>
                     </div>
                     <div className="about-us-content">
-                        <div data-aos="fade-up"
-                             className="about-us-img-item d-flex justify-content-center align-items-center">
-                            <img src={AboutImg} alt="about-us" style={{width: currentWidth === 1024 && '100%'}}/>
-                        </div>
                         <p data-aos="fade-up" className="about-us-text-item about-include-img">We as the creators of the
                             “Space Turtles
                             NFT” aims to illustrate the idea
@@ -68,6 +64,10 @@ const AboutComp = () => {
                             {/*    )*/}
                             {/*}*/}
                         </p>
+                        <div data-aos="fade-up"
+                             className="about-us-img-item d-flex justify-content-center align-items-center">
+                            <img src={AboutImg} alt="about-us" style={{width: currentWidth === 1024 && '100%'}}/>
+                        </div>
                         <p data-aos="fade-up" className="about-us-text-item">We have used all national flags to portray
                             that no matter where you come
                             from, if you have hunger to achieve your goals you will succeed. But we didn’t stop there as
