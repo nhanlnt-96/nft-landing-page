@@ -11,8 +11,8 @@ const FooterComp = () => {
         <div className="footer-comp-content d-flex flex-column justify-content-center align-items-center">
           <h6>JOIN THE COMMUNITY</h6>
           <div className="social d-flex justify-content-evenly align-items-center">
-            <a href="https://twitter.com/spaceturtlesNFT" target="_blank"><ImTwitter/></a>
-            <a href="https://discord.gg/egdbc6M3" target="_blank"><SiDiscord/></a>
+            <a href="https://twitter.com/spaceturtlesNFT"><ImTwitter/></a>
+            <a href="https://discord.gg/87XkTGvznc"><SiDiscord/></a>
             {/*<a href="#"><ImFacebook/></a>*/}
             {/*<a href="#"><ImYoutube/></a>*/}
             {/*<a href="#"><FiInstagram/></a>*/}
