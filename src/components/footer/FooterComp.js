@@ -12,7 +12,7 @@ const FooterComp = () => {
           <h6>JOIN THE COMMUNITY</h6>
           <div className="social d-flex justify-content-evenly align-items-center">
             <a href="https://twitter.com/spaceturtlesNFT"><ImTwitter/></a>
-            <a href="https://discord.gg/egdbc6M3"><SiDiscord/></a>
+            <a href="https://discord.gg/87XkTGvznc"><SiDiscord/></a>
             {/*<a href="#"><ImFacebook/></a>*/}
             {/*<a href="#"><ImYoutube/></a>*/}
             {/*<a href="#"><FiInstagram/></a>*/}
